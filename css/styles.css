@@ -72,6 +72,31 @@ body {
   opacity: 0.5;
 }
 
+.btn {
+  display: block;
+  border: none;
+  margin: 0 auto;
+}
+
+.btn-primary {
+  background-color: hsl(245, 75%, 52%);
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  font-size: 14px;
+  width: 85%;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.btn-secondary {
+  background-color: white;
+  font-size: 14px;
+  opacity: 0.5;
+  margin-bottom: 20px;
+  font-weight: 900;
+}
+
 .footer {
    font-size: 11px; 
    text-align: center; 
