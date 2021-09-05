@@ -32,6 +32,7 @@ body {
     overflow: hidden;
 }
 
+/*Header Section*/
 .main__hero-image {
     width: 100%;
 }
@@ -47,6 +48,7 @@ body {
   opacity: 0.5;
 }
 
+/*Pricing Section*/
 .pricing {
   display: flex;
   justify-content: space-around;
@@ -72,6 +74,19 @@ body {
   opacity: 0.5;
 }
 
+.pricing__div__link {
+  color: hsl(245, 75%, 52%);
+}
+
+.pricing__div__link:hover,
+.pricing__div__link:active {
+  text-decoration: none;
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+/*Buttons*/
+
 .btn {
   display: block;
   border: none;
@@ -88,15 +103,27 @@ body {
   margin-bottom: 20px;
   font-weight: 700;
 }
+.btn-primary:hover,
+.btn-primary:active {
+  opacity: 0.65;
+  cursor: pointer;
+}
 
 .btn-secondary {
   background-color: white;
   font-size: 14px;
-  opacity: 0.5;
+  opacity: 0.6;
   margin-bottom: 20px;
   font-weight: 900;
 }
 
+.btn-secondary:hover,
+.btn-secondary:active {
+  cursor: pointer;
+  opacity: 0.85;
+}
+
+/*Footer*/
 .footer {
    font-size: 11px; 
    text-align: center; 
